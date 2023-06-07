@@ -1,4 +1,6 @@
 # HyperAdrenaline by HardBytes
+NOTE: This is a duplicate of the original version, developed under our university.
+
 [ABPCE20] Proyecto de Videojuegos del grupo HardBytes del ABP 2020/21
 
 ## About our project
