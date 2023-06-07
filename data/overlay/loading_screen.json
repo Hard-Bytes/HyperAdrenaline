@@ -1,0 +1,17 @@
+{
+    "palette": {
+        "textColor": [0, 0, 0]
+    },
+    "elements": [
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.08, 0.17],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Loading...",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

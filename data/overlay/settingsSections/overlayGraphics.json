@@ -1,0 +1,137 @@
+{
+    "palette": {
+        "notTinted":  [1, 1, 1]
+        ,"textColor": [1, 1, 1]
+    },
+    "elements": [
+        {
+            "name": "chk_dynamicLight",
+            "type": 4,
+            "position": [0.4, 0.275],
+            "origin": 1,
+            "size": [0.01, 0.05]
+        },
+        {
+            "name": "sld_fov",
+            "type": 5,
+            "position": [0.4, 0.4],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 50,
+            "maxValue": 100,
+            "label": "",
+            "innerLabel": "%d",
+            "font": "audiowide",
+            "fontsize": 40
+        },
+        {
+            "name": "sld_skyboxQ",
+            "type": 5,
+            "position": [0.4, 0.5],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 3,
+            "label": "",
+            "innerLabel": "",
+            "font": "audiowide",
+            "fontsize": 40
+            ,"innerLabelVector": ["Low", "Normal", "High", "Ultra-High"]
+        },
+        {
+            "name": "sld_particleQ",
+            "type": 5,
+            "position": [0.4, 0.6],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 2,
+            "label": "",
+            "innerLabel": "",
+            "font": "audiowide",
+            "fontsize": 40
+            ,"innerLabelVector": ["None", "Minimum", "All"]
+        },
+        {
+            "name": "sld_renderDist",
+            "type": 5,
+            "position": [0.4, 0.7],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 200,
+            "maxValue": 400,
+            "label": "",
+            "innerLabel": "%d",
+            "font": "audiowide",
+            "fontsize": 40
+        },
+        {
+            "name": "chk_useAnimations",
+            "type": 4,
+            "position": [0.4, 0.775],
+            "origin": 1,
+            "size": [0.1, 0.5]
+        }
+        
+        ,{
+            "name": "text_dynamicLight",
+            "type": 0,
+            "position": [0.05, 0.3],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Use Dynamic Lightning:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_fov",
+            "type": 0,
+            "position": [0.05, 0.4],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Field of View (FOV):",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_skyboxQ",
+            "type": 0,
+            "position": [0.05, 0.5],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Skybox Quality:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_particleQ",
+            "type": 0,
+            "position": [0.05, 0.6],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Particle usage:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_renderDist",
+            "type": 0,
+            "position": [0.05, 0.7],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Max Render Distance:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_useAnimations",
+            "type": 0,
+            "position": [0.05, 0.8],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Use Animations:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

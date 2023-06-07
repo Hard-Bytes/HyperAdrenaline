@@ -1,0 +1,679 @@
+{
+    "mapStructure": {
+        "mapName": "The Hangar",
+        "meshFile": "theHangarJoined.obj",
+        "navmeshFile": "navmesh/navmesh-mapa1-defenitivo.obj",
+        "bgMusic": "Música/Ambience1",
+        "playerSpawnPoint":  [40, 1.6, 0],
+        "playerLookAt":  [-1, 0, 0],
+        "waypoints": [
+            [-14.53, 0.5, 70.04],
+            [15.242, 0.5, 101.48],
+            [-9.19, 0.5, 112.39],
+            [19.763, 0.5, 73.565],
+
+            [93.456, 0.5, 76.855],
+            [88.169, 0.5, 99.277],
+            [68.044, 0.5, 83.922],
+
+            [66.636, 2.2, 154.85],
+
+            [171.79, 0.5, 170.77],
+            [164.91, 0.5, 149.8],
+            [145, 0.5, 129.48],
+            [179.18, 0.5, 124.223],
+            [202.21, 0.5, 159.36],
+            [189.46, 0.5, 177.1],
+
+            [179.18, 0.5, 124.223],
+            [256.48, 0.5, 144.36],
+            [241.798, 0.5, 103.182],
+            [212.9, 0.5, 130.81],
+
+            [165.2, 10, 69.57],
+            [141,38, 0.5, 109.74],
+
+            [171, 10, 91.231],
+            [200.33, 10, 91.231],
+            [200.33, 10, 69.57 ],
+
+            [198, 10, 38.233],
+            [198, 10, 60.782],
+
+            [300, 0.5, 117.77],
+            [325.21, 0.5, 117.77],
+            [325.21, 0.5, 92.556],
+            [300, 0.5, 92.556]
+
+
+        ],
+        "routes": [
+            [0, 1, 2, 3],
+            [4, 5, 6],
+            [7],
+            [8, 9, 10, 11, 12, 13],
+            [13, 14, 15, 16, 17],
+            [18, 19],
+            [20, 19, 21, 22, 19],
+            [23, 24, 20, 19, 21, 22, 19],
+            [25, 26, 27, 28]
+
+
+        ]
+    },
+    "generalData": {
+        "raidTime": 65000,
+        "enemiesInARaid": 8,
+        "isRaidZone": false,
+        "initialEnemySpawnPoints": []
+    },
+    "mapElements": {
+        "levelExits": [
+            {
+                "pos": [243.7, 9.5, 35.7],
+                "rot": [0, 0, 0],
+                "scale": [1, 7, 6]
+            }
+        ],
+        "enemyKillDoors": [
+            {
+                "pos":   [21.7, 0, -0.22],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 0, "respawnTime": 5000,
+                "raidZone": false
+                ,"comentario":"Pasillo Inicial"
+            },
+            {
+                "pos":   [-0.02, 0, 20.8],
+                "rot":   [0, 0, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 0, "respawnTime": 9000,
+                "raidZone": true
+                ,"comentario":"Hacia Armeria"
+                ,"spawnPoints": [
+                    {
+                        "pos": [-14.53, 17, 70.04],
+                        "patrol": 0, 
+                        "initialPatrolPoint": 1,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [15.242, 17, 101.48],
+                        "patrol": 0, 
+                        "initialPatrolPoint": 2,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [-9.19, 17, 112.39],
+                        "patrol": 0, 
+                        "initialPatrolPoint": 3,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    }
+                ]
+            },
+            {
+                "pos":   [30.213, 0, 87.94],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 9, "respawnTime": 7500,
+                "raidZone": true
+                ,"comentario":"Cruce"
+                ,"spawnPoints": [
+                    {
+                        "pos": [93.456, 17, 76.855],
+                        "patrol": 1 , 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [88.169, 17, 99.277],
+                        "patrol": 1, 
+                        "initialPatrolPoint": 1,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    }
+                ]
+            },
+            {
+                "pos":   [80.59, 0, 109.32],
+                "rot":   [0, 0, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 13, "respawnTime": 12500,
+                "raidZone": true
+                ,"comentario":"Hangar"
+                ,"spawnPoints": [
+                    {
+                        "pos": [67.636, 2.2, 154.85],
+                        "patrol": 2, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false
+                    },
+
+
+                    {
+                        "pos": [171.79, 25, 170.77],
+                        "patrol": 3, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 4
+                    },
+                    {
+                        "pos": [179.18, 25, 124.223],
+                        "patrol": 3, 
+                        "initialPatrolPoint": 3,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 4
+                    },
+                    {
+                        "pos": [224.067, 30, 156.959],
+                        "patrol": 4, 
+                        "initialPatrolPoint": 2,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 4
+                    },
+                    {
+                        "pos": [241.798, 17, 103.182 ],
+                        "patrol": 4, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 4
+                    }
+                ]
+            },
+            {
+                "pos":   [266.95, 0, 101.96],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 29, "respawnTime": 9000,
+                "raidZone": true
+                ,"comentario":"Taller"
+                ,"spawnPoints": [
+                    {
+                        "pos": [300, 20, 117.77],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [325.21, 20, 92.556],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [325.21, 20, 117.77],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    }
+
+                ]
+            },
+            {
+                "pos":   [197.325, 8.07, 61.946],
+                "rot":   [0, 180, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 42, "respawnTime": 8000,
+                "raidZone": true,
+                "spawnPoints": [
+                    {
+                        "pos": [210.66, 11, 34.451],
+                        "patrol": 7, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    },
+                    {
+                        "pos": [222.43, 11, 38.108],
+                        "patrol": 7, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    },
+                    {
+                        "pos": [227.83, 11, 32.578],
+                        "patrol": 7, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    },
+                    {
+                        "pos": [230.83, 11, 34.578],
+                        "patrol": 7, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    }
+                ]
+            }
+        ],
+        "keyDoors": [
+            {
+                "pos":   [140.348, 0, 113.07],
+                "rot":   [0, 180, 0],
+                "scale": [1, 1, 1],
+                "keyID": 2,
+                "remoteID": 1,
+                "raidZone": true, "respawnTime": 100000000,
+                "spawnPoints": [
+                    {
+                        "pos": [171, 31, 91.231],
+                        "patrol": 6, 
+                        "initialPatrolPoint": 8,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [200.33, 28, 91.231],
+                        "patrol": 6, 
+                        "initialPatrolPoint": 10,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [200.33, 30, 69.57 ],
+                        "patrol": 6, 
+                        "initialPatrolPoint": 10,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+
+
+                    
+                    {
+                        "pos": [165.2, 17, 69.57],
+                        "patrol": 5, 
+                        "initialPatrolPoint": 8,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    }
+
+                ]
+            },
+            {
+                "pos":   [3.6, 0, -15.03],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "keyID": 1,
+                "remoteID": 1,
+                "raidZone": false, "respawnTime": 8000,
+                "spawnPoints": []
+            }
+        ],
+        "keys": [
+            {
+                "pos": [335, 2, 125],
+                "scale": [0.55, 0.55, 0.55],
+                "keyID": 2
+            },
+            {
+                "pos": [-46.5, 10, 14],
+                "scale": [0.5, 0.5, 0.5],
+                "keyID": 1
+            }
+        ],
+        "pads": [
+            {
+                "pos": [201.55, 8.05, 52.607],
+                "scale": [1, 1, 1],
+                "padType": 1
+            },
+            {
+                "pos": [262.28, 0.2, 130.85],
+                "scale": [1, 1, 1],
+                "padType": 2
+            }
+        ],
+        "vendingMachines": [
+            {
+                "pos": [97.6, 0, 93],
+                "scale": [1, 1, 1],
+                "rot": [0, 90, 0],
+                "vendingMachineType": 1,
+                "vendingMachinePrice": 500
+            },
+            {
+                "pos": [173, 0.15, 116],
+                "scale": [1, 1, 1],
+                "rot": [0, 180, 0],
+                "vendingMachineType": 1,
+                "vendingMachinePrice": 500
+            },
+            {
+                "pos": [290.1, 0, 117.50],
+                "scale": [1, 1, 1],
+                "rot": [0, 270, 0],
+                "vendingMachineType": 2,
+                "vendingMachinePrice": 500
+            }
+        ],
+        "pickableWeapon": [
+            {
+                "pos": [0, 1.0, 0],
+                "scale": [1, 1, 1],
+                "weaponType": 1
+            },
+            {
+                "pos": [15, 1.0, -17],
+                "scale": [0.8, 0.8, 0.8],
+                "weaponType": 2
+            },
+            {
+                "pos": [79.4715, 1.0, 154.81],
+                "scale": [0.8, 0.8, 0.8],
+                "weaponType": 5
+            },
+            {
+                "pos": [335.81, 3, 112.587],
+                "scale": [0.8, 0.8, 0.8],
+                "weaponType": 4
+            }
+        ],
+        "prespawnedEnemies": [
+            {
+                "enemyType": 3,
+                "pos": [-25.8, 2.2, 12.8],
+                "scale": [1, 1, 1],
+                "rotation":[0,53,0],
+                "patrol": 1,
+                "initialPatrolPoint": 1,
+                "isFromRaid": false
+            },
+            {
+                "enemyType": 3,
+                "pos": [-39.8, 2.2, 16.6],
+                "scale": [1, 1, 1],
+                "rotation":[0,0,0],
+                "patrol": 1,
+                "initialPatrolPoint": 2,
+                "isFromRaid": false
+            },
+            {
+                "enemyType": 3,
+                "pos": [-50.9, 2.2, 10.9],
+                "scale": [1, 1, 1],
+                "rotation":[0,0,0],
+                "patrol": 1,
+                "initialPatrolPoint": 2,
+                "isFromRaid": false
+            },
+            {
+                "enemyType": 3,
+                "pos": [-39.5, 2.2, 0],
+                "scale": [1, 1, 1],
+                "rotation":[0,0,0],
+                "patrol": 1,
+                "initialPatrolPoint": 2,
+                "isFromRaid": false
+            },
+            {
+                "enemyType": 3,
+                "pos": [-44.5, 5.2, -7.2],
+                "scale": [1, 1, 1],
+                "rotation":[180,0,0],
+                "patrol": 1,
+                "initialPatrolPoint": 2,
+                "isFromRaid": false
+            },
+            {
+                "enemyType": 3,
+                "pos": [-43.3, 2.2, -13.5],
+                "scale": [1, 1, 1],
+                "rotation":[0,-40,0],
+                "patrol": 1,
+                "initialPatrolPoint": 2,
+                "isFromRaid": false
+            }
+        ],
+        "lights": [
+            {
+                "pos": [-12.429, 13, 1.66],
+                "type": 1,
+                "radius": 140,
+                "intensityAmbient": [0.5, 0.5, 0.5],
+                "intensityDiffuse": [0.7, 0.7, 0.7],
+                "intensitySpecular": [0.6, 0.6, 0.6],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Luces sala entrrenamiento"
+            },
+            {
+                "pos":         [3.1763 , 6.7, 91.184],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"armeria"
+            },
+            {
+                "pos":         [63.767 , 6.7, 104.95],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.4, 0.4, 0.4],
+                "intensitySpecular": [0.4, 0.4, 0.4],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"luces cruce"
+            },
+            {
+                "pos":         [80.254 , 4, 130.42],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.4, 0.4, 0.4],
+                "intensitySpecular": [0.4, 0.4, 0.4],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"luces pasillo hangar-cruce"
+            },
+            {
+                "pos":         [174.85 , 14, 147.56],
+                "type": 1,
+                "radius": 140,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.0009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"luces hangar"
+            },
+            {
+                "pos":         [222.96 , 13, 153.29],
+                "type": 1,
+                "radius": 180,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.0009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+            },
+            {
+                "pos":         [245.46 , 9, 89.152],
+                "type": 1,
+                "radius": 170,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.0009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+            },
+            {
+                "pos":         [312.74 , 3.8, 90.894],
+                "type": 1,
+                "radius": 60,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.0009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Luces Talleres"
+            },
+            {
+                "pos":         [174.67 , 17.5, 82.608],
+                "type": 1,
+                "radius": 60,
+                "intensityAmbient": [0.06, 0.06, 0.06],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Luces de la sala de lanzamiento"
+            },
+            {
+                "pos":         [197.93 , 11, 36.656],
+                "type": 1,
+                "radius": 0,
+                "intensityAmbient": [0.1, 0.1, 0.1],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"pasillo final"
+            },
+            {
+                "pos":         [223.93 , 11, 36.656],
+                "type": 1,
+                "radius": 60,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.04,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"pasillo final"
+            }
+        ],
+        "invisibleWalls": [
+            {
+                "pos":  [179.45, 12.8, 112.87],
+                "size": [17.6, 2.6, 0.5]
+            },
+            {
+                "pos":  [13.064, 3.3913, -9.086],
+                "size": [4.721, 1.526, 0.21]
+            },
+            {
+                "pos":  [-27.0, 4.1, 88.6],
+                "size": [4.09, 5.3, 35.355]
+            },
+            {
+                "pos":  [197.07, 9.6, 193.93],
+                "size": [63.29, 8.920, 0.250]
+            },
+            {
+                "pos":  [80.198, 2.88, 68.115],
+                "size": [3.0, 3.0, 1.4]
+            }
+        ],
+        "roomSensors": [
+            {
+                "cornerFrom": [-52, -1, -20]
+                ,"cornerTo":  [56, 18, 23]
+            },
+            {
+                "cornerFrom": [-52, -1, -20]
+                ,"cornerTo":  [35, 18, 125]
+            },
+            {
+                "cornerFrom": [-32, -1, 52]
+                ,"cornerTo":  [105, 18, 125]
+            },
+            {
+                "cornerFrom": [52, -1, 67]
+                ,"cornerTo":  [103, 18, 162]
+            },
+            {
+                "cornerFrom": [45, -1, 102]
+                ,"cornerTo":  [269, 38, 197]
+            },
+            {
+                "cornerFrom": [339, -1, 133]
+                ,"cornerTo":  [220, 18, 74]
+            },
+            {
+                "cornerFrom": [269, -1, 197]
+                ,"cornerTo":  [121, 38.5, 58]
+            },
+            {
+                "cornerFrom": [156, 7.3, 113]
+                ,"cornerTo":  [256, 30.5, 27]
+            }
+        ]
+    }
+}

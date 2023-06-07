@@ -1,0 +1,10 @@
+#pragma once
+
+enum TREE_TYPE{
+    USELESS = 0,
+    MELEE_TREE,
+    SHOOTING_TREE,
+    KAMIKAZE_TREE,
+    RAID_MELEE_TREE,
+    RAID_SHOOTING_TREE
+};

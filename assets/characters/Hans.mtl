@@ -1,0 +1,161 @@
+# Blender MTL File: 'None'
+# Material Count: 12
+
+newmtl Arm.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.010888 0.018951
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd texture\\HansNerfed\\Arm_baseColor.jpg
+map_Ns texture\\HansNerfed\\Arm_roughness.jpg
+
+newmtl Hand.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.040062 0.147493 0.281204
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd texture\\HansNerfed\\Hand_baseColor.jpg
+map_Ns texture\\HansNerfed\\Hand_roughness.jpg
+refl texture\\HansNerfed\\Hand_metallic.jpg
+
+newmtl Hear.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000539 0.006430 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump texture\\HansNerfed\\Hear_normal.png
+map_Kd texture\\HansNerfed\\Hear_baseColor.jpg
+map_Ns texture\\HansNerfed\\Hear_roughness.jpg
+refl texture\\HansNerfed\\Hear_metallic.jpg
+
+newmtl Helmet.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.080116 0.800000 0.028013
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump texture\\HansNerfed\\Helmet_normal.png
+map_Kd texture\\HansNerfed\\Helmet_baseColor.jpg
+map_Ns texture\\HansNerfed\\Helmet_roughness.jpg
+refl texture\\HansNerfed\\Helmet_metallic.jpg
+
+newmtl Knee.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.243309
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd texture\\HansNerfed\\Knee_baseColor.jpg
+map_Ns texture\\HansNerfed\\Knee_roughness.jpg
+refl texture\\HansNerfed\\Knee_metallic.jpg
+
+newmtl Leg.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.268108 0.021943
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump texture\\HansNerfed\\Leg_normal.png
+map_Kd texture\\HansNerfed\\Leg_baseColor.jpg
+map_Ns texture\\HansNerfed\\Leg_roughness.jpg
+refl texture\\HansNerfed\\Leg_metallic.jpg
+
+newmtl Pads.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.783058 0.006997
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump texture\\HansNerfed\\Pads_normal.png
+map_Kd texture\\HansNerfed\\Pads_baseColor.jpg
+map_Ns texture\\HansNerfed\\Pads_roughness.jpg
+refl texture\\HansNerfed\\Pads_metallic.jpg
+
+newmtl Relleno-Pierna.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.299395 0.044144 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd texture\\HansNerfed\\Relleno-Pierna_baseColor.jpg
+map_Ns texture\\HansNerfed\\Relleno-Pierna_roughness.jpg
+
+newmtl Shoulder.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.010737 0.007765 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd texture\\HansNerfed\\Shoulder_baseColor.jpg
+map_Ns texture\\HansNerfed\\Shoulder_roughness.jpg
+
+newmtl Stomach.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.307113 0.241969 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump texture\\HansNerfed\\Stomach_normal.png
+map_Kd texture\\HansNerfed\\Stomach_baseColor.jpg
+map_Ns texture\\HansNerfed\\Stomach_roughness.jpg
+refl texture\\HansNerfed\\Stomach_metallic.jpg
+
+newmtl Torso.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.129780 0.719220 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump texture\\HansNerfed\\Torso_normal.png
+map_Kd texture\\HansNerfed\\Torso_baseColor.jpg
+map_Ns texture\\HansNerfed\\Torso_roughness.jpg
+refl texture\\HansNerfed\\Torso_metallic.jpg
+
+newmtl Visor.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd texture\\HansNerfed\\Visor_baseColor.jpg
+map_Ns texture\\HansNerfed\\Visor_roughness.jpg
+refl texture\\HansNerfed\\Visor_metallic.jpg

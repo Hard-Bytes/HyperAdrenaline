@@ -1,0 +1,370 @@
+{
+    "palette": {
+        "ammoColor":        [0.149, 0.784, 0]
+        ,"hpBarEmptyColor": [0.471, 1    , 0.392]
+        ,"hpBarFullColor":  [0.031, 0.353, 0]
+        ,"dashFullColor":   [0.114, 0.529, 0]
+        ,"dashChargeColor": [0.275, 1    , 0.039]
+        ,"creditsYellow":   [0.847, 0.701, 0]
+        ,"fpsCount":        [1    , 1    , 1]
+        ,"interactionInfo": [1    , 1    , 1]
+        ,"interactSuccess": [0.5  , 1    , 0.5]
+        ,"interactError":   [1    , 0.5  , 0.5]
+        ,"interactMiddle":  [1    , 1    , 0.5]
+        ,"crosshairHitmark":[1    , 0    , 0]
+        ,"crosshairInterac":[1    , 1    , 0]
+
+        ,"hpBarEmptyColorBlue":     [0.471, 0.459, 1]
+        ,"hpBarFullColorBlue":      [0.102, 0.082, 1]
+        ,"hpBarEmptyColorGreen":    [0.471, 1    , 0.392]
+        ,"hpBarFullColorGreen" :    [0.031, 0.353, 0]
+    },
+    "textures": {
+        "hudCharacterCard":     "assets/HUD/card_green.png"
+        ,"hudCharacterProfile": "assets/HUD/profile_green.png"
+        ,"hudLifeBarBorder":    "assets/HUD/lifebar_border_green.png"
+        ,"creditsIcon":         "assets/HUD/credit_yellow.png"
+        ,"dashBoxBorder":       "assets/HUD/dashbox_green.png"
+        ,"dashIcon":            "assets/HUD/dash.png"
+        ,"ammoBackground":      "assets/HUD/text_light_bg_green.png"
+
+        ,"weaponInventorySlots":"assets/HUD/weaponbar_green.png"
+        ,"weaponInventoryMark": "assets/HUD/weaponbar_marker_green.png"
+        ,"weaponIconHandgun":   "assets/HUD/icon_weapon_handgun.png"
+        ,"weaponIconShotgun":   "assets/HUD/icon_weapon_shotgun.png"
+        ,"weaponIconCarbine":   "assets/HUD/icon_weapon_carbine.png"
+        ,"weaponIconMachinegun":"assets/HUD/icon_weapon_machinegun.png"
+        ,"weaponIconSniper":    "assets/HUD/icon_weapon_sniper.png"
+        ,"weaponIconRocketLnch":"assets/HUD/icon_weapon_rocketlauncher.png"
+        ,"weaponIconRetroman":  "assets/HUD/icon_weapon_retroman.png"
+
+        ,"crosshairNormal":     "assets/HUD/crosshair.png"
+        ,"crosshairHitmarker":  "assets/HUD_pruebas/crosshairHitmarker.png"
+        ,"crosshairInteraction":"assets/HUD/crosshair.png"
+
+        ,"popupBackground":     "assets/HUD/popup_bg_small_green.png"
+        ,"popupBackgroundL":    "assets/HUD/popup_bg_large_green.png"
+
+        ,"icon_skull":          "assets/HUD/icon_skull.png"
+        ,"icon_credits":        "assets/HUD/credit_yellow.png"
+        ,"icon_card1":          "assets/HUD/icon_card_red.png"
+        ,"icon_card2":          "assets/HUD/icon_card_blue.png"
+        ,"icon_card3":          "assets/HUD/icon_card_green.png"
+        ,"icon_card4":          "assets/HUD/icon_card_yellow.png"
+        ,"icon_card5":          "assets/HUD/icon_card_purple.png"
+        ,"icon_card6":          "assets/HUD/icon_card_gray.png"
+        ,"icon_card_unknown":   "assets/HUD/icon_card_unknown.png"
+
+        ,"hudCharacterCardBlue":    "assets/HUD/card_blue.png"
+        ,"hudLifeBarBorderBlue":    "assets/HUD/lifebar_border_blue.png"
+        ,"hudCharacterProfileBlue": "assets/HUD/profile_blue.png"
+        ,"hudCharacterCardGreen":   "assets/HUD/card_green.png"
+        ,"hudLifeBarBorderGreen":   "assets/HUD/lifebar_border_green.png"
+        ,"hudCharacterProfileGreen":"assets/HUD/profile_green.png"
+    },
+    "elements": [
+        {
+            "name": "img_AmmoBackground",
+            "type": 1,
+            "position": [0.859, 0.97],
+            "origin": 4,
+            "size": [0.1531, 0.1],
+            "textureIndex": "ammoBackground"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "text_AmmoCount",
+            "type": 0,
+            "position": [0.72, 0.87],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "",
+            "font": "audiowide",
+            "colorIndex": "ammoColor"
+        },
+
+        {
+            "name": "img_CharCard",
+            "type": 1,
+            "position": [0.014, 0.9765],
+            "origin": 2,
+            "size": [0.2531, 0.1625],
+            "textureIndex": "hudCharacterCard"
+        },
+        {
+            "name": "rect_LifebarBack",
+            "type": 2,
+            "position": [0.029, 0.9472],
+            "origin": 2,
+            "size": [0.17725, 0.0412],
+            "colorIndex": "hpBarEmptyColor",
+            "opacity": 1
+        },
+        {
+            "name": "rect_Lifebar",
+            "type": 2,
+            "position": [0.029, 0.9472],
+            "origin": 2,
+            "size": [0.177, 0.0412],
+            "colorIndex": "hpBarFullColor",
+            "opacity": 1
+        },
+        {
+            "name": "img_LifebarBorder",
+            "type": 1,
+            "position": [0.022, 0.96],
+            "origin": 2,
+            "size": [0.1875, 0.0666667],
+            "textureIndex": "hudLifeBarBorder"
+        },
+        {
+            "name": "text_LifebarCount",
+            "type": 0,
+            "position": [0.21328, 0.8958],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "",
+            "font": "audiowide",
+            "colorIndex": "hpBarFullColor"
+        },
+        {
+            "name": "img_CharProfile",
+            "type": 1,
+            "position": [0.04, 0.9],
+            "origin": 2,
+            "size": [0.037, 0.064],
+            "textureIndex": "hudCharacterProfile"
+        },
+        {
+            "name": "img_CreditsIcon",
+            "type": 1,
+            "position": [0.08593, 0.89445],
+            "origin": 2,
+            "size": [0.0304688, 0.05417],
+            "textureIndex": "creditsIcon"
+        },
+        {
+            "name": "text_CreditsCount",
+            "type": 0,
+            "position": [0.125, 0.84028],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "",
+            "font": "audiowide",
+            "colorIndex": "creditsYellow"
+        },
+
+        {
+            "name": "rect_DashBackground",
+            "type": 2,
+            "position": [0.93984, 0.9513],
+            "origin": 4,
+            "size": [0.06249625, 0.11102],
+            "colorIndex": "dashFullColor",
+            "opacity": 1
+        },
+        {
+            "name": "img_DashBorder",
+            "type": 1,
+            "position": [0.966, 0.985],
+            "origin": 4,
+            "size": [0.109375, 0.1847222],
+            "textureIndex": "dashBoxBorder"
+        },
+        {
+            "name": "img_DashIcon",
+            "type": 1,
+            "position": [0.9359375, 0.944444],
+            "origin": 4,
+            "size": [0.0546875, 0.097222],
+            "textureIndex": "dashIcon"
+        },
+
+        {
+            "name": "text_FPSCount",
+            "type": 0,
+            "position": [0.0078, 0.01389],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "",
+            "font": "audiowide",
+            "colorIndex": "fpsCount"
+        },
+
+        {
+            "name": "img_Crosshair",
+            "type": 1,
+            "position": [0.5, 0.5],
+            "origin": 0,
+            "size": [0.025, 0.04444],
+            "textureIndex": "crosshairNormal"
+        },
+
+        {
+            "name": "text_InteractionInfo",
+            "type": 0,
+            "position": [0.35, 0.58],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "",
+            "font": "audiowide",
+            "colorIndex": "interactionInfo"
+        },
+        {
+            "name": "text_InteractionStatus",
+            "type": 0,
+            "position": [0.42, 0.53],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "",
+            "font": "audiowide",
+            "colorIndex": "interactionInfo"
+                ,"comment": "Contains text like [Unlocked] or [Locked]"
+        },
+
+        {
+            "name": "img_bottomCenterPopupBg",
+            "type": 1,
+            "position": [0.5, 0.85],
+            "origin": 6,
+            "size": [0.5, 0.1458333],
+            "textureIndex": "popupBackground"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_bottomCenterPopupIcon",
+            "type": 1,
+            "position": [0.33, 0.723],
+            "origin": 3,
+            "size": [0.0625, 0.11111],
+            "textureIndex": "dashBoxBorder"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "text_bottomCenterPopup",
+            "type": 0,
+            "position": [0.335, 0.72],
+            "origin": 0,
+            "fontsize": 40,
+            "text": "Mira el tuto",
+            "font": "audiowide",
+            "colorIndex": "interactionInfo"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_topCenterPopupBg",
+            "type": 1,
+            "position": [0.5, 0.08],
+            "origin": 5,
+            "size": [0.5, 0.2],
+            "textureIndex": "popupBackgroundL"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_topCenterPopupIcon",
+            "type": 1,
+            "position": [0.33, 0.205],
+            "origin": 4,
+            "size": [0.0625, 0.11111],
+            "textureIndex": "dashBoxBorder"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "text_topCenterPopup",
+            "type": 0,
+            "position": [0.335, 0.09],
+            "origin": 0,
+            "fontsize": 40,
+            "text": "Usa el arma rapidoo",
+            "font": "audiowide",
+            "colorIndex": "interactionInfo"
+            ,"defaultVisibility": false
+        }
+
+        ,{
+            "name": "img_weaponBar",
+            "type": 1,
+            "position": [0.5, 0.98],
+            "origin": 6,
+            "size": [0.4140625, 0.11111],
+            "textureIndex": "weaponInventorySlots"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponBarMarker",
+            "type": 1,
+            "position": [0.325, 0.98],
+            "origin": 6,
+            "size": [0.05078, 0.0902778],
+            "textureIndex": "weaponInventoryMark"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon1",
+            "type": 1,
+            "position": [0.328, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconHandgun"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon2",
+            "type": 1,
+            "position": [0.385, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconShotgun"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon3",
+            "type": 1,
+            "position": [0.443, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconCarbine"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon4",
+            "type": 1,
+            "position": [0.5008, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconMachinegun"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon5",
+            "type": 1,
+            "position": [0.5594, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconSniper"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon6",
+            "type": 1,
+            "position": [0.614, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconRocketLnch"
+            ,"defaultVisibility": false
+        },
+        {
+            "name": "img_weaponIcon7",
+            "type": 1,
+            "position": [0.673, 0.965],
+            "origin": 6,
+            "size": [0.04297, 0.076389],
+            "textureIndex": "weaponIconRetroman"
+            ,"defaultVisibility": false
+        }
+    ],
+    "popupSlots": {
+        "bottomSlot":   ["text_bottomCenterPopup", "img_bottomCenterPopupBg", "img_bottomCenterPopupIcon"]
+        ,"topSlot":     ["text_topCenterPopup"   , "img_topCenterPopupBg"   , "img_topCenterPopupIcon"   ]
+    }
+}

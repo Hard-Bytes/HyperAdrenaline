@@ -1,0 +1,26 @@
+[
+    {
+        "hudElement": "chk_dynamicLight",
+        "settingName": "graphics/useDynamicLightning"
+    },
+    {
+        "hudElement": "sld_fov",
+        "settingName": "graphics/fov"
+    },
+    {
+        "hudElement": "sld_skyboxQ",
+        "settingName": "graphics/skyboxQuality"
+    },
+    {
+        "hudElement": "sld_particleQ",
+        "settingName": "graphics/particleQuality"
+    },
+    {
+        "hudElement": "sld_renderDist",
+        "settingName": "graphics/maxRenderDistance"
+    },
+    {
+        "hudElement": "chk_useAnimations",
+        "settingName": "graphics/useAnimations"
+    }
+]

@@ -1,0 +1,17 @@
+# Our own compilation junk
+obj/
+# Our main program
+HyperAdrenaline
+HAServer
+
+# Libraries compilation junk
+lib/**/*.o
+lib/**/*.d
+# Libraries compilation result (static libraries)
+lib/irrlicht/**/*.a
+
+# Valgrind cores
+vgcore.*
+
+# Visual Code data
+.vscode/

@@ -1,0 +1,11 @@
+{
+    "weapons": {
+        "handgun": false,
+        "shotgun": false,
+        "carbine": false,
+        "machinegun": false,
+        "sniper": false,
+        "explosive": false,
+        "retroman": false
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "palette": {
+        "textColor": [0, 0, 0]
+    },
+    "elements": [
+        {
+            "name": "text_question",
+            "type": 0,
+            "position": [0.08, 0.2083],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Close the game?",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+
+        {
+            "name": "text_option0",
+            "type": 0,
+            "position": [0.14, 0.417],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "No",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option1",
+            "type": 0,
+            "position": [0.14, 0.472],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Yes",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+
+        ,{
+            "name": "selection_arrow",
+            "type": 0,
+            "position": [0.028, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+}  

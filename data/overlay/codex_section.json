@@ -1,0 +1,48 @@
+{
+    "palette": {
+        "textColor":    [0, 0, 0]
+        ,"arrowColor":  [0.1, 0.1, 0.8]
+    },
+    "elements": [
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.015, 0.085],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "The Codex (Section)",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option0",
+            "type": 0,
+            "position": [0.025, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to go back to codex",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option1",
+            "type": 0,
+            "position": [0.048, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Nothing to see here",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "selection_arrow",
+            "type": 0,
+            "position": [0.028, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "arrowColor"
+        }
+    ]
+} 

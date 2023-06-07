@@ -1,0 +1,23 @@
+#pragma once
+
+//#define LOG_SYSTEM
+//#define ONLINE_LOG_SYSTEM
+
+#ifdef LOG_SYSTEM
+#define LOG_INFO(x) std::cout << "\033[1;37m[INFO]:\033[0m " << x << std::endl
+#define LOG_ERR(x)  std::cout << "\033[1;31m[ERR]:\033[0m " << x << std::endl
+#define LOG_TMP(x)  std::cout << "\033[1;35m[TMP]:\033[0m " << x << std::endl
+    #ifdef ONLINE_LOG_SYSTEM
+        #define LOG_ONLINE(x) std::cout << "\033[1;34m[ONLINE]:\033[0m " << x << std::endl
+        #define LOG_ONLINETMP(x) //std::cout << "\033[1;33m[TMPONLINE]:\033[0m " << x << std::endl
+    #else
+        #define LOG_ONLINE(x) 
+        #define LOG_ONLINETMP(x) 
+    #endif
+#else
+#define LOG_INFO(x) 
+#define LOG_ERR(x)  
+#define LOG_TMP(x)  
+#define LOG_ONLINE(x) 
+#define LOG_ONLINETMP(x) 
+#endif

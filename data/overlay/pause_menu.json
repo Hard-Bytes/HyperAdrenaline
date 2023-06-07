@@ -1,0 +1,88 @@
+{
+    "palette": {
+        "textColor": [1, 1, 1]
+    },
+    "textures": {
+        "background": "assets/menus/pause_bg.png"
+    },
+    "elements": [
+        {
+            "name": "img_background",
+            "type": 1,
+            "position": [0, 0],
+            "origin": 1,
+            "size": [0.534375, 1],
+            "textureIndex": "background"
+        },
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.015, 0.085],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Paused",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_escToKit",
+            "type": 0,
+            "position": [0.009, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to resume",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option0",
+            "type": 0,
+            "position": [0.048, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Resume",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option1",
+            "type": 0,
+            "position": [0.048, 0.335],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Settings",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option2",
+            "type": 0,
+            "position": [0.048, 0.42],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Quit to menu",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option3",
+            "type": 0,
+            "position": [0.048, 0.505],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Quit to desktop",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_arrow",
+            "type": 0,
+            "position": [0.023, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

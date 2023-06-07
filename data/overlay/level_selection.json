@@ -1,0 +1,60 @@
+{
+    "palette": {
+        "textColor":            [1    , 1    , 1    ]
+        ,"disabledTextColor":   [0.8  , 0.8  , 0.8]
+    },
+    "textures": {
+        "background": "assets/menus/hexagon_bg.png"
+    },
+    "elements": [
+        {
+            "name": "img_background",
+            "type": 1,
+            "position": [0, 0],
+            "origin": 1,
+            "size": [1, 1],
+            "textureIndex": "background"
+        },
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.015, 0.085],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Select level",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_escToKit",
+            "type": 0,
+            "position": [0.009, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to go back to menu",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "list_levels",
+            "type": 10,
+            "position": [0.048, 0.25],
+            "origin": 1,
+            "size": [0, 0],
+            "spacing": [0, 0.083333],
+            "fontsize": 40,
+            "font": "audiowide",
+            "textColorIndex": "textColor"
+        },
+        {
+            "name": "text_arrow",
+            "type": 0,
+            "position": [0.024, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

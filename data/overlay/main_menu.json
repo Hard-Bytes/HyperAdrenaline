@@ -1,0 +1,106 @@
+{
+    "palette": {
+        "textColor": [1, 1, 1]
+    },
+    "textures": {
+        "background": "assets/menus/hexagon_bg.png"
+        ,"titlelogo": "assets/menus/hyperadrenaline_logo.png"
+        ,"hardbytes": "assets/menus/hardbytes_icon.png"
+    },
+    "elements": [
+        {
+            "name": "img_background",
+            "type": 1,
+            "position": [0, 0],
+            "origin": 1,
+            "size": [1, 1],
+            "textureIndex": "background"
+        },
+        {
+            "name": "img_Title",
+            "type": 1,
+            "position": [0.015, 0.15],
+            "origin": 1,
+            "size": [0.35, 0.19444],
+            "textureIndex": "titlelogo"
+        },
+        {
+            "name": "text_escToKit",
+            "type": 0,
+            "position": [0.009, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to quit",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option0",
+            "type": 0,
+            "position": [0.1, 0.35],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Singleplayer",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option1",
+            "type": 0,
+            "position": [0.1, 0.435],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Multiplayer",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option2",
+            "type": 0,
+            "position": [0.1, 0.52],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "The Codex",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option3",
+            "type": 0,
+            "position": [0.1, 0.605],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Settings",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option4",
+            "type": 0,
+            "position": [0.1, 0.69],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Quit Game",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_arrow",
+            "type": 0,
+            "position": [0.07, 0.35],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "img_hardbytesIcon",
+            "type": 1,
+            "position": [0.98, 0.98],
+            "origin": 4,
+            "size": [0.03125, 0.05556],
+            "textureIndex": "hardbytes"
+        }
+    ]
+} 

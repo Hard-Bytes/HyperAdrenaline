@@ -1,0 +1,77 @@
+{
+    "palette": {
+        "textColor": [0, 0, 0]
+    },
+    "elements": [
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.015, 0.085],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Credits",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_escToKit",
+            "type": 0,
+            "position": [0.009, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to skip",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_message0",
+            "type": 0,
+            "position": [0.048, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Made by Hardbytes",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_message1",
+            "type": 0,
+            "position": [0.048, 0.32],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Directed by Hardbytes",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_message2",
+            "type": 0,
+            "position": [0.048, 0.39],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Special thanks to Hardbytes",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_message3",
+            "type": 0,
+            "position": [0.024, 0.486],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Actual special thanks:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_message4",
+            "type": 0,
+            "position": [0.048, 0.555],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Music - Paco Macia Perez",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

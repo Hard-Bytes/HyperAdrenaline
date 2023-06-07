@@ -1,0 +1,111 @@
+{
+    "palette": {
+        "notTinted":  [1, 1, 1]
+        ,"textColor": [1, 1, 1]
+        ,"bgColor":   [0.21, 0.22, 0.39]
+    },
+    "textures": {
+        "exitButton":       "assets/HUD_pruebas/back.png"
+        ,"applyButton":     "assets/HUD_pruebas/apply.png"
+        ,"audioButton":     "assets/HUD_pruebas/secAudio.png"
+        ,"graphicsButton":  "assets/HUD_pruebas/secGraphics.png"
+        ,"uiButton":        "assets/HUD_pruebas/secUI.png"
+    },
+    "elements": [
+        {
+            "name": "rect_background",
+            "type": 2,
+            "position": [0, 0],
+            "origin": 1,
+            "size": [1, 1],
+            "colorIndex": "bgColor",
+            "opacity": 0.4
+        },
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.015, 0.085],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Settings",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_escToKit",
+            "type": 0,
+            "position": [0.509, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to go back to menu",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "but_escToKit",
+            "type": 3,
+            "position": [0.009, 0.027],
+            "origin": 1,
+            "size": [0.1, 0.05],
+            "textureIndex": "exitButton",
+            "buttonColorIndex": "notTinted",
+            "fontsize": 40,
+            "text": "Back",
+            "font": "audiowide",
+            "textColorIndex": "textColor"
+        },
+        {
+            "name": "but_applyChanges",
+            "type": 3,
+            "position": [0.159, 0.027],
+            "origin": 1,
+            "size": [0.1, 0.05],
+            "textureIndex": "applyButton",
+            "buttonColorIndex": "notTinted",
+            "fontsize": 40,
+            "text": "Apply",
+            "font": "audiowide",
+            "textColorIndex": "textColor"
+        }
+        
+        ,{
+            "name": "but_sectionAudio",
+            "type": 3,
+            "position": [0.1, 0.2],
+            "origin": 1,
+            "size": [0.08, 0.05],
+            "textureIndex": "audioButton",
+            "buttonColorIndex": "notTinted",
+            "fontsize": 40,
+            "text": "Audio",
+            "font": "audiowide",
+            "textColorIndex": "textColor"
+        },
+        {
+            "name": "but_sectionGraphics",
+            "type": 3,
+            "position": [0.2, 0.2],
+            "origin": 1,
+            "size": [0.08, 0.05],
+            "textureIndex": "graphicsButton",
+            "buttonColorIndex": "notTinted",
+            "fontsize": 40,
+            "text": "Graphics",
+            "font": "audiowide",
+            "textColorIndex": "textColor"
+        },
+        {
+            "name": "but_sectionUI",
+            "type": 3,
+            "position": [0.3, 0.2],
+            "origin": 1,
+            "size": [0.08, 0.05],
+            "textureIndex": "uiButton",
+            "buttonColorIndex": "notTinted",
+            "fontsize": 40,
+            "text": "UI",
+            "font": "audiowide",
+            "textColorIndex": "textColor"
+        }
+    ]
+} 

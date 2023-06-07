@@ -1,0 +1,22 @@
+[
+    {
+        "hudElement": "sld_VolMaster",
+        "settingName": "audio/globalVolume"
+    },
+    {
+        "hudElement": "sld_VolMusic",
+        "settingName": "audio/musicVolume"
+    },
+    {
+        "hudElement": "sld_VolVoice",
+        "settingName": "audio/voiceVolume"
+    },
+    {
+        "hudElement": "sld_VolAmbience",
+        "settingName": "audio/sfxAmbienceVolume"
+    },
+    {
+        "hudElement": "sld_VolCombat",
+        "settingName": "audio/sfxCombatVolume"
+    }
+]

@@ -1,0 +1,60 @@
+{
+    "palette": {
+        "textColor": [1, 1, 1]
+    },
+    "textures": {
+        "background": "assets/menus/level_selection_bg.png"
+    },
+    "elements": [
+        {
+            "name": "img_background",
+            "type": 1,
+            "position": [0, 0],
+            "origin": 1,
+            "size": [0.534375, 1],
+            "textureIndex": "background"
+        },
+        {
+            "name": "text_question",
+            "type": 0,
+            "position": [0.08, 0.2083],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "Level finished!",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+
+        {
+            "name": "text_option0",
+            "type": 0,
+            "position": [0.14, 0.417],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Back to level selection",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option1",
+            "type": 0,
+            "position": [0.14, 0.472],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Go to next level",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+
+        ,{
+            "name": "selection_arrow",
+            "type": 0,
+            "position": [0.028, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+}  

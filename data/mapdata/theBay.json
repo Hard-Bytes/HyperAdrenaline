@@ -1,0 +1,855 @@
+{
+    "mapStructure": {
+        "mapName": "The Bay",
+        "meshFile": "theCargoJoined.obj",
+        "navmeshFile": "navmesh/mapa2navmesh.obj",
+        "bgMusic": "Música/Ambience3",
+        "playerSpawnPoint":  [-16, 1.8, 0],
+        "playerLookAt":  [1, 0, 0],
+        "waypoints": [
+            [62.3905, -2, -12.4977],
+            [32.788, -2, 12.31],
+            [32.788, -2, 12.31],
+            [19.6545, -2, 0],
+            [63.768, -2, 10.626],
+
+            [151.2, -2, 0],
+            [90, -2, 0],
+
+            [138, -11, 34],
+            [157.18, -11, 34.13],
+            [166.74, -11, 41.45],
+            [169.38, -11, 26.937],
+
+            [181.63, -11, 35.81],
+
+            [181.97, -11, -31.418],
+            [160.2, -11, -21.818],
+            [165.99, -11, -35.8],
+            [150.45, -11, -31.418],
+
+            
+            [138.83, -11, -19.478],
+            [137.83, -11, -39.359],
+
+            [200, -2, 0],
+            [225.83, -2, -18.683],
+
+            [275.95, -3, -52.32],
+            [313.61, -3, -52.32],
+
+            [309.52, -11, -27],
+            [285.26, -11, -29.152],
+            [294.97, -11, -19.757],
+            [298.13, -11, -35.293],
+            [269.69, -11, -27],
+
+            
+            [317.4, -11, 28.2],
+            [305.2, -11, 35.587],
+            [305.2, -11, 20.82],
+
+            
+            [298.68, -11, 28.2],
+            [274.6, 14, 20.804],
+            [274.6, 14, 35.571],
+
+            [350, -3, 30],
+            [322, -3, 53],
+
+            [425.909, -3, 0]
+
+
+        ],
+        "routes": [
+            [0, 1, 2, 3, 4],
+            [5,6],
+            [7,8,9,10],
+            [11,8],
+            [12,13,14,15],
+            [15,16,17],
+            [18,19],
+            [20,21],
+            [22,23,24,25,26],
+            [27,28,29],
+            [30,31,32],
+            [33,34],
+            [35]
+        ]
+    },
+    "generalData": {
+        "raidTime": 65000,
+        "enemiesInARaid": 8,
+        "isRaidZone": false,
+        "initialEnemySpawnPoints": []
+    },
+    "mapElements": {
+        "levelExits": [
+            {
+                "pos": [524.29, 0, -60],
+                "rot": [0, 0, 0],
+                "scale": [6, 7, 1]
+                
+            }
+        ],
+        "enemyKillDoors": [
+            {
+                "pos":   [9.1, -2.8, -0.235],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 0, "respawnTime": 7000,
+                "raidZone": true
+                ,"comentario":"SALA x"
+                ,"spawnPoints": [
+                    {
+                        "pos": [48.5075, 14, -1],
+                        "patrol": 0, 
+                        "initialPatrolPoint": 1,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [62.3905, 14, -12.4977],
+                        "patrol": 0, 
+                        "initialPatrolPoint": 3,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 4
+                    },
+                    {
+                        "pos": [63.768, 17, 10.626],
+                        "patrol": 0, 
+                        "initialPatrolPoint": 4,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 4
+                    }
+                ]
+            },
+            {
+                "pos":   [78.7, -2.8, 0.4],
+                "rot":   [0, -90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 11, "respawnTime": 3000,
+                "raidZone": true
+                ,"comentario":"Pasillo bomberman"
+                ,"spawnPoints": [
+                    {
+                        "pos": [151.2, 13, 0],
+                        "patrol": 1, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    }
+                ]
+            },
+            {
+                "pos":   [134.6, -2.8, 7,5],
+                "rot":   [0, 0, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 14, "respawnTime": 7000,
+                "raidZone": true
+                ,"comentario":"Oficina derecha"
+                ,"spawnPoints": [
+                    {
+                        "pos": [157.18, 13, 34.13],
+                        "patrol": 2, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [166.74, 11, 41.45],
+                        "patrol": 2, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [169.38, 13.5, 26.937],
+                        "patrol": 2, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [181.63, 13.5, 35.81],
+                        "patrol": 3, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    }
+                    
+                ]
+            },
+            {
+                "pos":   [183.75, -2.8, -7,5],
+                "rot":   [0, 180, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 26, "respawnTime": 8000,
+                "raidZone": true
+                ,"comentario":"Oficina izquierda"
+                ,"spawnPoints": [
+                    {
+                        "pos": [160.2, 13, -21.818],
+                        "patrol": 4, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [165.99, 13, -35.8],
+                        "patrol": 4, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [150.45, 14, -31.418],
+                        "patrol": 4, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [138.83, 14, -19.478],
+                        "patrol": 5, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [137.83, 12.6, -39.359],
+                        "patrol": 5, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 2
+                    }
+                    
+                ]
+            },
+            {
+                "pos":   [266.869, -2.8, -7],
+                "rot":   [0, 180, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 37, "respawnTime": 6000,
+                "raidZone": true
+                ,"comentario":"Almacen izquierda"
+                ,"spawnPoints": [
+                    {
+                        "pos": [285.26, 14, -29.152],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 1,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "nu,mEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [294.97, 14, -19.757],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 2,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [298.13, 14, -35.293],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 3,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [318.2, 14, -42.293],
+                        "patrol": 8, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [307.48, 14, -53.683],
+                        "patrol": 7, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 4,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    },
+                    {
+                        "pos": [273.95, 14, -53.683],
+                        "patrol": 7, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 4,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    }
+                ]
+            },
+            {
+                "pos":   [316.3, -10.65, -6.8],
+                "rot":   [0, 0, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 49, "respawnTime": 8000,
+                "raidZone": true
+                ,"comentario":"Almacen derecha"
+                ,"spawnPoints": [
+                    {
+                        "pos": [316.95, 14, 43.075],
+                        "patrol": 9, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [305.2, 14, 35.587],
+                        "patrol": 9, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [305.2, 14, 20.82],
+                        "patrol": 9, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [298.68, 14, 28.204],
+                        "patrol": 9, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [274.6, 14, 20.804],
+                        "patrol": 10, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [274.6, 14, 35.571],
+                        "patrol": 10, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    },
+                    {
+                        "pos": [281.11, 14, 28.187],
+                        "patrol": 10, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 3
+                    }
+                    
+                ]
+            },
+            {
+                "pos":   [322.5, -2.8, 53.19],
+                "rot":   [0, -90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 70, "respawnTime": 9000,
+                "raidZone": true
+                ,"comentario":"Pasillo al cañon retroman"
+                ,"spawnPoints": [
+                    {
+                        "pos": [350, 1, 10],
+                        "patrol": 11, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    },
+                    {
+                        "pos": [350, 1, 30],
+                        "patrol": 11, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 1
+                    }
+                    
+                ]
+            },
+            
+            {
+                "pos":   [376, -2.8, -0.25],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "killsRequired": 0, "respawnTime": 9000,
+                "raidZone": false
+                ,"comentario":"Pre cargo"
+                ,"spawnPoints": [
+                    {
+                        "pos": [507.692, 9, 31.9597],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [542.08, 18.5, -32.2549],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [542.08, 18.5, -8],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [538.967, 18.5, 13.5],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [527.667, 3.5, -18.562],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 1,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [527.667, 3.5, -18.562],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [484.62, 3.5, -18.562],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [459.51, 3.5, -18.562],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    },
+                    {
+                        "pos": [469.51, 3.5, 4],
+                        "patrol": 12, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 0,
+                        "isForRaid": false,
+                        "numEnemiesToSpawn": 2
+                    }
+                ]
+            }
+            
+        ],
+        "keyDoors": [
+            {
+                "pos":   [199.5, -2.8, -0.242],
+                "rot":   [0, 90, 0],
+                "scale": [1, 1, 1],
+                "keyID": 3,
+                "remoteID": 3,
+                "raidZone": true, "respawnTime": 100000000,
+                "spawnPoints": [
+                    {
+                        "pos": [225.83, 2, -18.683],
+                        "patrol": 6, 
+                        "initialPatrolPoint": 0,
+                        "enemyType": 2,
+                        "isForRaid": true,
+                        "numEnemiesToSpawn": 1
+                    }
+                ]
+            },
+            
+            {
+                "pos":   [523.59, -2.8, -39.914],
+                "rot":   [0, 180 , 0],
+                "scale": [1, 1, 1],
+                "keyID": 4,
+                "remoteID": 4,
+                "raidZone": true, "respawnTime": 100000000,
+                "spawnPoints": [
+                ]
+            }
+            
+        ],
+        "keys": [
+            {
+                "pos": [132.5, -9, -46],
+                "scale": [0.55, 0.55, 0.55],
+                "keyID": 3
+            },
+            {
+                "pos": [524.29, -1, -0],
+                "scale": [0.55, 0.55, 0.55],
+                "keyID": 4
+            }
+        ],
+        "pads": [
+            {
+                "pos": [155.9, -2.8, 0],
+                "scale": [1, 1, 1],
+                "padType": 1
+            },
+            {
+                "pos": [268, -10.65, -10],
+                "scale": [1, 1, 1],
+                "padType": 1
+            }
+        ],
+        "vendingMachines": [
+            {
+                "pos": [223.56, -2.8, -24],
+                "scale": [1, 1, 1],
+                "rot": [0, 180, 0],
+                "vendingMachineType": 2,
+                "vendingMachinePrice": 500
+            },
+            {
+                "pos": [265, -10.65, 30],
+                "scale": [1, 1, 1],
+                "rot": [0, -90, 0],
+                "vendingMachineType": 1,
+                "vendingMachinePrice": 500
+            }
+        ],
+        "pickableWeapon": [
+            {
+                "pos": [0, -1, -0.1],
+                "scale": [1, 1, 1],
+                "weaponType": 3
+            },
+            {
+                "pos": [142.168, -9, 12],
+                "scale": [1, 1, 1],
+                "weaponType": 2
+            },
+            {
+                "pos": [265.37, -8.5, -45.5],
+                "scale": [1, 1, 1],
+                "weaponType": 6
+            },
+            {
+                "pos": [350, -1, 0],
+                "scale": [1, 1, 1],
+                "weaponType": 7
+            }
+        ],
+        "prespawnedEnemies": [
+        ],
+        "lights": [
+            {
+                "pos":         [-16, 2, 0],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":""
+            },
+            {
+                "pos":         [70, 2, 0],
+                "type": 1,
+                "radius": 100,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Luz de la primera sala"
+            },
+            {
+                "pos":         [125, 2, 0],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.4, 0.4, 0.4],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.2,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Pasillo de la primera sala hacia el almacen1"
+            },
+            {
+                "pos":         [190, 2, 0],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.4, 0.4, 0.4],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.2,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Pasillo almacen hacia la maquina expendedora"
+            },
+            {
+                "pos":         [225, 2, 0],
+                "type": 1,
+                "radius": 90,
+                "intensityAmbient": [0.4, 0.4, 0.4],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.2,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Luz maquina expendedora"
+            },
+            {
+                "pos":         [350, 2, 0],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.1,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Pasillo antes cannon retroman"
+            },
+            {
+                "pos":         [350, 2, 50],
+                "type": 1,
+                "radius": 60,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.1,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Pasillo oficina derecha a cannon retroman"
+            },
+            {
+                "pos":         [406, 2, 0],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.1,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Pasillo del cannon retroman al final"
+            },
+            {
+                "pos":         [450, 2, 0],
+                "type": 1,
+                "radius": 0,
+                "intensityAmbient": [0.02, 0.02, 0.02],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Pasillo del cannon retroman al final"
+            },
+            {
+                "pos":         [500, 2, 0],
+                "type": 1,
+                "radius": 160,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.005,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Sala final 1"
+            },
+            {
+                "pos":         [525, 2, -45],
+                "type": 1,
+                "radius": 30,
+                "intensityAmbient": [0.3, 0.3, 0.3],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.09,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"Sala final 2"
+            },
+            {
+                "pos":         [165, 2, 36],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.1, 0.1, 0.1],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"oficinas derecha"
+            },
+            {
+                "pos":         [165, 2, -36],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.1, 0.1, 0.1],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.009,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"oficinas izquierda"
+            },
+            {
+                "pos":         [295, 2, 30],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.7, 0.7, 0.7],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.05,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"almacen izquierda"
+            },
+            {
+                "pos":         [295, 2, -30],
+                "type": 1,
+                "radius": 120,
+                "intensityAmbient": [0.7, 0.7, 0.7],
+                "intensityDiffuse": [0.6, 0.6, 0.6],
+                "intensitySpecular": [0.5, 0.5, 0.5],
+                "attenuationConstant": 1.0,
+                "attenuationLinear": 0.05,
+                "attenuationQuadratic": 0.00032,
+                "direction": [0,0,0],
+                "innerCutoff": 0.0,
+                "outerCutoff": 0.0
+                ,"comentario":"almacen derecha"
+            }
+        ],
+        "invisibleWalls": [
+            {
+                "pos":  [160.5, 1.96, 0],
+                "size": [1.65, 5, 6.54]
+            },
+            {
+                "pos":  [300.5, 1.96, 0],
+                "size": [1.9, 5, 6.54]
+            },
+            {
+                "pos":  [349.08, 1.96, -15.068],
+                "size": [6.54, 5, 1.380]
+            },
+            {
+                "pos":  [159.044, 0.21, 6.6],
+                "size": [15.01, 1.55, 0.1]
+            },
+            {
+                "pos":  [159.044, 0.21, -6.6],
+                "size": [15.01, 1.55, 0.1]
+            },
+            {
+                "pos":  [292.48, 0.21, 6.6],
+                "size": [15.01, 1.55, 0.1]
+            },
+            {
+                "pos":  [292.48, 0.21, -6.6],
+                "size": [15.01, 1.55, 0.1]
+            }
+        ],
+        "roomSensors": [
+            {
+                "cornerFrom": [-21, -4, 20.5]
+                ,"cornerTo":  [160, 23.3, -23.1]
+            },
+            {
+                "cornerFrom": [128, -12, 51]
+                ,"cornerTo":  [210, 23.3, -51]
+            },
+            {
+                "cornerFrom": [154, -4, 10]
+                ,"cornerTo":  [304, 11, -28]
+            },
+            {
+                "cornerFrom": [249, -12, 65]
+                ,"cornerTo":  [400, 34, -62]
+            },
+            {
+                "cornerFrom": [334, -12, 100]
+                ,"cornerTo":  [570, 84, -100]
+            }
+        ]
+    }
+}

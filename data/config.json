@@ -1,0 +1,35 @@
+{
+    "settings": {
+        "multiplayer": {
+            "playerName": "Player 1",
+            "host": "localhost",
+            "port": "8080"
+        },
+        "audio": {
+            "globalVolume": 0.5,
+            "musicVolume": 0.5,
+            "voiceVolume": 0.5,
+            "sfxAmbienceVolume": 0.5,
+            "sfxCombatVolume": 0.5
+        },
+        "graphics": {
+            "resolutionX": 1366,
+            "resolutionY": 768,
+            "useDynamicLightning": true,
+            "fov": 69,
+            "maxRenderDistance": 300,
+            "useAnimations": true,
+            "skyboxQuality": 1,
+            "particleQuality": 2
+        },
+        "ui": {
+            "showUI": true,
+            "showFPS": false,
+            "uiScale": 1.0
+        },
+        "debug": {
+            "usePhysicsOcclusion": true,
+            "useSmoothPaths": false
+        }
+    }
+}

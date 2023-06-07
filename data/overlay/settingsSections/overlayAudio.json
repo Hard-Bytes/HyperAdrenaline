@@ -1,0 +1,124 @@
+{
+    "palette": {
+        "notTinted":  [1, 1, 1]
+        ,"textColor": [1, 1, 1]
+    },
+    "elements": [
+        {
+            "name": "sld_VolMaster",
+            "type": 6,
+            "position": [0.4, 0.3],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 1,
+            "label": "",
+            "innerLabel": "%.1f",
+            "font": "audiowide",
+            "fontsize": 40
+        },
+        {
+            "name": "sld_VolMusic",
+            "type": 6,
+            "position": [0.4, 0.4],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 1,
+            "label": "",
+            "innerLabel": "%.1f",
+            "font": "audiowide",
+            "fontsize": 40
+        },
+        {
+            "name": "sld_VolVoice",
+            "type": 6,
+            "position": [0.4, 0.5],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 1,
+            "label": "",
+            "innerLabel": "%.1f",
+            "font": "audiowide",
+            "fontsize": 40
+        },
+        {
+            "name": "sld_VolAmbience",
+            "type": 6,
+            "position": [0.4, 0.6],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 1,
+            "label": "",
+            "innerLabel": "%.1f",
+            "font": "audiowide",
+            "fontsize": 40
+        },
+        {
+            "name": "sld_VolCombat",
+            "type": 6,
+            "position": [0.4, 0.7],
+            "origin": 1,
+            "size": [0.55, 0.05],
+            "minValue": 0,
+            "maxValue": 1,
+            "label": "",
+            "innerLabel": "%.1f",
+            "font": "audiowide",
+            "fontsize": 40
+        }
+        
+        ,{
+            "name": "text_VolMaster",
+            "type": 0,
+            "position": [0.05, 0.3],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Master volume:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_VolMusic",
+            "type": 0,
+            "position": [0.05, 0.4],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Music volume:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_VolVoice",
+            "type": 0,
+            "position": [0.05, 0.5],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Voice volume:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_VolAmbience",
+            "type": 0,
+            "position": [0.05, 0.6],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Ambience SFX volume:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_VolCombat",
+            "type": 0,
+            "position": [0.05, 0.7],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Combat SFX volume:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

@@ -1,0 +1,26 @@
+{
+    "palette": {
+        "notTinted":  [1, 1, 1]
+        ,"textColor": [1, 1, 1]
+    },
+    "elements": [
+        {
+            "name": "chk_showUI",
+            "type": 4,
+            "position": [0.4, 0.275],
+            "origin": 1,
+            "size": [0.01, 0.05]
+        }
+        
+        ,{
+            "name": "text_showUI",
+            "type": 0,
+            "position": [0.05, 0.3],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Show In-Game UI:",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 

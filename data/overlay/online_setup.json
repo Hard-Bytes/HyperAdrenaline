@@ -1,0 +1,88 @@
+{
+    "palette": {
+        "textColor": [1, 1, 1]
+    },
+    "textures": {
+        "background": "assets/menus/hexagon_bg.png"
+    },
+    "elements": [
+        {
+            "name": "img_background",
+            "type": 1,
+            "position": [0, 0],
+            "origin": 1,
+            "size": [1, 1],
+            "textureIndex": "background"
+        },
+        {
+            "name": "text_Title",
+            "type": 0,
+            "position": [0.015, 0.085],
+            "origin": 1,
+            "fontsize": 80,
+            "text": "HyperAdrenaline",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_escToKit",
+            "type": 0,
+            "position": [0.009, 0.027],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Press ESC to go back to menu",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_greeting",
+            "type": 0,
+            "position": [0.023, 0.25],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Welcome!",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option0",
+            "type": 0,
+            "position": [0.055, 0.335],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Host a game",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_option1",
+            "type": 0,
+            "position": [0.055, 0.42],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "Join a game",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_destination",
+            "type": 0,
+            "position": [0.023, 0.555],
+            "origin": 1,
+            "fontsize": 40,
+            "text": "You will connect to ",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        },
+        {
+            "name": "text_arrow",
+            "type": 0,
+            "position": [0.03, 0.335],
+            "origin": 1,
+            "fontsize": 40,
+            "text": ">",
+            "font": "audiowide",
+            "colorIndex": "textColor"
+        }
+    ]
+} 
