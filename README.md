@@ -3,6 +3,8 @@ NOTE: This is a duplicate of the original version, developed under our universit
 
 [ABPCE20] Proyecto de Videojuegos del grupo HardBytes del ABP 2020/21
 
+Download at: https://hard-bytes.itch.io/hyper-adrenaline
+
 ## About our project
 **HyperAdrenaline** is a project made by students of the 4th year of Multimedia Engineering at **University of Alicante** (Spain)[1] in the academic year of 2020-2021.
 We made a First Person Shooter (FPS) game for **Linux Manjaro** (version Nibia 10.2)[2], made with our own Render, Audio and Game engine.
